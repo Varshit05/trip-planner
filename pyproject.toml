@@ -1,0 +1,5 @@
+[tool.pyrefly]
+python-interpreter-path = "e:/MERN/trip-planner/server/venv/Scripts/python.exe"
+python_interpreter_path = "e:/MERN/trip-planner/server/venv/Scripts/python.exe"
+search-path = ["server"]
+search_path = ["server"]
