@@ -68,6 +68,7 @@ export interface HOSSummary {
   duty_window_used: number;
   cycle_used: number;
   driving_since_break: number;
+  initial_cycle_used: number;
 }
 
 export interface TripPlanResponse {

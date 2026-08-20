@@ -137,7 +137,7 @@ export const ResultsPage: React.FC<ResultsPageProps> = ({ plan, onBack }) => {
       </div>
 
       {/* ELD Logs grid - Prints in full landscape page */}
-      <ELDLog logs={plan.daily_logs} />
+      <ELDLog plan={plan} />
     </div>
   );
 };

@@ -157,6 +157,7 @@ class TripPlannerOrchestrator:
                 "driving_today": end_hos_state["driving_today"],
                 "duty_window_used": end_hos_state["duty_window_used"],
                 "cycle_used": end_hos_state["cycle_used"],
-                "driving_since_break": end_hos_state["driving_since_break"]
+                "driving_since_break": end_hos_state["driving_since_break"],
+                "initial_cycle_used": cycle_used_hours
             }
         }
