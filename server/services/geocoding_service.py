@@ -24,7 +24,7 @@ class GeocodingService:
 
         url = "https://nominatim.openstreetmap.org/search"
         headers = {
-            "User-Agent": "AntigravityLogisticsRouteApp/2.4 (contact-dev-user-987@gmail.com)"
+            "User-Agent": "LogiRouteLogisticsApp/2.4 (contact-dev-user-987@gmail.com)"
         }
         params = {
             "q": address_clean,

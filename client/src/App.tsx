@@ -85,7 +85,7 @@ function App() {
               <Truck className="w-5 h-5" />
             </div>
             <div>
-              <span className="font-black text-sm text-slate-800 tracking-tight">Antigravity LogiRoute</span>
+              <span className="font-black text-sm text-slate-800 tracking-tight">LogiRoute</span>
               <span className="block text-[9px] text-teal-600 font-bold tracking-widest uppercase">ELD Planner</span>
             </div>
           </div>
@@ -145,7 +145,7 @@ function App() {
 
               <div className="space-y-2">
                 <h3 className="font-bold text-slate-800 text-lg">Planning Compliant Route</h3>
-                <p className="text-xs text-slate-400 font-medium">Please wait while we crunch numbers</p>
+                <p className="text-xs text-slate-400 font-medium">Calculating route details and daily logs...</p>
               </div>
 
               {/* Progress Steps */}
@@ -184,7 +184,7 @@ function App() {
       {/* Footer */}
       <footer className="py-6 border-t border-slate-100 bg-white text-center text-xs text-slate-400 font-medium no-print">
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© {new Date().getFullYear()} Antigravity Route Planner. Developed for compliant fleet operations.</p>
+          <p>© {new Date().getFullYear()} LogiRoute Planner. Developed for compliant fleet operations.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-slate-600 transition-colors">Documentation</a>
             <a href="#" className="hover:text-slate-600 transition-colors">HOS Rules Summary</a>
