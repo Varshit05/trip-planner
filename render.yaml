@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: trip-planner-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python server/manage.py collectstatic --noinput
+    startCommand: gunicorn --chdir server config.wsgi:application
+    envVars:
+      - key: DEBUG
+        value: "False"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALLOWED_HOSTS
+        value: "*"
